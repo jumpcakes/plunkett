@@ -1316,4 +1316,45 @@ License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 */
 body {
-  background-color: pink; }
+  background-color: #08202b; }
+
+.site-header {
+  background-color: #08202b;
+  min-height: 130px; }
+  .site-header .widget-area {
+    max-width: 600px; }
+  .site-header .wrap {
+    padding: 0; }
+
+.header-image .site-title a {
+  min-height: 100px; }
+
+.nav-primary {
+  background-color: #08202b;
+  border-bottom: solid 1px #ffffff;
+  text-transform: uppercase; }
+
+.genesis-nav-menu a {
+  padding: 20px 10px;
+  color: #ffffff; }
+
+#menu-top-menu a {
+  font-size: 14px; }
+
+#nav_menu-2 {
+  float: left; }
+
+input[type="search"] {
+  float: left;
+  display: inline-block;
+  max-width: 200px;
+  font-size: 12px;
+  padding: 10px; }
+
+.widget_search input[type="submit"] {
+  width: 50px;
+  height: 40px;
+  background-color: #275e37;
+  float: left;
+  position: relative;
+  display: inline-block; }

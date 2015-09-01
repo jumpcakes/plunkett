@@ -28,5 +28,31 @@ gulp.task('scripts', function() {
 });
 
 
+function handleError(err) {
+  console.log(err.toString());
+  this.emit('end');
+}
+
+gulp.task('onerror', function () {
+  return gulp.src('somefile')
+    .pipe(someStream())
+    .on('error', handleError);
+});
+
+gulp.task('plumber', function () {
+  return gulp.src('somefile')
+    .pipe(pulmber({ errorHandler: handleError }))
+    .pipe(someStream());
+});
+
+gulp.task('multipipe', function () {
+  return multipipe(
+    gulp.src('somefile'),
+    someStream()
+  ).on('error', handleError);
+});
+
+
 gulp.task('default', ['sass','scripts','watch',]);
+
 

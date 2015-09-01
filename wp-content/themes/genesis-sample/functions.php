@@ -39,8 +39,17 @@ add_filter('stylesheet_uri','wpi_stylesheet_uri',10,2);
 function wpi_stylesheet_uri($stylesheet_uri, $stylesheet_dir_uri){
 
     return get_stylesheet_directory_uri().'/assets/css/style.css';
+}
 
-
-
+add_filter( 'genesis_search_text', 'sp_search_text' );
+function sp_search_text( $text ) {
+       return esc_attr( 'Search Plunkett\'s Pest Control' );
 
 }
+add_filter( 'genesis_search_button_text', 'sp_search_button_text' );
+function sp_search_button_text( $text ) {
+       return esc_attr( 'Go' );
+}
+
+
+
