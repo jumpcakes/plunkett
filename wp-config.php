@@ -53,8 +53,6 @@ define('NONCE_SALT',       'lx(R805-Hs-M!_U~Ha=hfa#u9*YWqItD{85N8|L5AHl7x2&KR!1t
 
 /**#@-*/
 
-define('WP_HOME','http://localhost/genesis/');
-define('WP_SITEURL','http://localhost/genesis');
 
 
 /**
