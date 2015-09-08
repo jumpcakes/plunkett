@@ -1,0 +1,317 @@
+/* # Genesis Framework
+Theme Name: Genesis  
+Theme URI: http://my.studiopress.com/themes/genesis/  
+Description: The industry standard for Premium WordPress Themes. Please do not modify this style sheet, as it might get overridden in updates.  
+Author: StudioPress  
+Author URI: http://www.studiopress.com/  
+Version: 2.1.2  
+Tags: black, orange, white, one-column, two-columns, three-columns, left-sidebar, right-sidebar, responsive-layout, custom-menu, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready  
+License: GPL-2.0+  
+License URI: http://www.gnu.org/licenses/gpl-2.0.html  
+*/
+
+$body-bg: #0B2531;
+$white: #ffffff;
+$green: #275e37;
+$lime-green: #bfc03f;
+$lite-gray: #bdc4cd;
+$opacity: rgba(255, 255, 255, 0.2);
+
+
+
+
+body {
+	background-color:$body-bg;	
+	color: $white;	
+}
+h1,h2,h3,h4,h5,h6 {
+	  color: $white;
+}
+p {
+	color: $lite-gray;
+}
+
+
+.archive-description, .author-box {
+	background:none;
+}
+
+
+
+
+
+.site-inner, .wrap {
+	max-width:1000px;
+}
+.footer-widgets-1, .footer-widgets-2, .footer-widgets-3 {
+	width:33%;
+}
+.footer-widgets-1 {
+	margin-right:0;
+}
+
+
+
+
+
+
+
+.site-header {
+	background:none;
+	.widget-area {
+	width:50%;
+	max-width:460px;
+	}
+	.wrap {
+	padding:0;
+	}
+	.search-form {	
+	width:240px;
+	float:right;
+	display:block;
+	padding-bottom:1em;
+
+	}
+}
+
+
+
+#menu-top-menu {
+	a {
+	padding: 2em 10px;
+	font-size:.85em;
+	}
+}
+#nav_menu-2 {
+	float:left;
+}
+#text-2 {
+	clear:both;
+}
+input[type="search"] {
+	float:left;
+	display:inline-block;
+	max-width: 200px;
+	font-size: .65em;
+	height:40px;
+
+}
+.widget_search input[type="submit"] {
+	width:40px;
+	height:40px;
+	background-color:$green;
+	float:left;
+	position:relative;
+	display:inline-block;
+}
+
+.phone_number a {
+	font-size:1.5em;
+	line-height: 1;
+}
+.tagline {
+	font-style: italic;	
+	color:$lite-gray;
+	font-size:.8em;
+}
+
+
+
+
+.header-image {
+	.site-title{
+		a {
+		min-height:85px;
+		margin-top:22px;
+		}
+	}
+}
+.nav-primary {
+	background: none;	
+	border-bottom: solid 1px $opacity;
+	text-transform: uppercase;
+}
+.genesis-nav-menu {
+	a {
+	padding: 0 0 20px 0;
+	color: $white;
+	}
+}
+#menu-main {
+	li {
+	font-size: 1.1em;
+	text-align:center;
+	width: 12%;
+	
+	}
+}
+
+
+a {
+	color: $lime-green;
+}
+a:hover {
+	color:$lime-green !important;
+	text-decoration:underline;
+}
+.nav-primary .genesis-nav-menu a:hover, .nav-primary .genesis-nav-menu .current-menu-item > a, .nav-primary .genesis-nav-menu .sub-menu .current-menu-item > a:hover
+
+
+.site-inner {
+	padding-top:0px !important;
+}
+
+.content {
+	width:66%;
+	padding: 60px 7% 60px 0;
+    border-right: solid 1px $opacity;	
+    .entry {
+    background:none;
+     margin: 0;
+    padding:0;
+    }
+}
+.sidebar-primary {
+    float: right;
+    width: 28%;
+
+    
+}
+
+
+
+
+
+
+
+.mobile-cta {
+	display:none;
+}
+
+.soliloquy-container {
+	.soliloquy-wrapper {
+		padding-bottom: 3.4em !important;
+	}
+	.soliloquy-pager-link {
+		opacity:.3;
+	}
+	.soliloquy-prev,.soliloquy-next {
+		display:none !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-widgets {
+	background:none;
+	border-top: solid 1px $opacity;
+	    padding: 3.1em 0 1.1em 0;
+}
+.site-footer {
+	background:none;
+	border-top: solid 1px $opacity;	
+    padding: 1.5em 0;
+    .copyright-text {
+        position: relative;
+    	left: -50px;
+    	font-size: 1em;
+		color:$white;
+		opacity: .3;
+    }
+}
+.site-footer {
+	ul {
+		li {
+		display:inline-block;
+		float: left;
+		text-align:left;
+		font-size:1.75em;
+		opacity: .3;
+		padding: 0 3px;
+		a {
+		color:$white;
+		}
+		}
+	}
+}
+.footer-widgets a {
+	color: $white;
+	text-transform: uppercase;
+}
+.footer-widgets {
+	text-align: center;
+	li {
+	    border-bottom: none;
+	    padding: 0;
+	    margin: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1040px) {
+  .site-inner, .wrap {
+  padding-left:3%;
+  padding-right:3%;
+  }
+}
+
+@media (max-width: 768px) {
+  	
+  	.mobile-cta {
+	display:block;
+	margin-bottom:30px;
+	}
+	.content {
+		width:100%;
+		padding: 60px 0 0 0;
+	    border-right: none;	
+	}
+	.sidebar-primary {
+	    clear:both;
+	    width: 100%;   
+	}
+	.site-inner, .wrap {
+  padding-left:5%;
+  padding-right:5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .copyright-text {
+    	clear:both;
+    	left:0 !important;
+    }
+    .footer-widgets-1, .footer-widgets-2, .footer-widgets-3 {
+		width:100%;
+	}
+    .site-footer {
+		ul {
+			li {
+			float: none;
+			margin: 0 auto .5em auto;
+			text-align:center;
+			font-size:2em;
+			}
+		}
+	}
+}

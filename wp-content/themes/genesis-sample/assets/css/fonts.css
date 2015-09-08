@@ -1,0 +1,49 @@
+/* # Genesis Framework
+Theme Name: Genesis  
+Theme URI: http://my.studiopress.com/themes/genesis/  
+Description: The industry standard for Premium WordPress Themes. Please do not modify this style sheet, as it might get overridden in updates.  
+Author: StudioPress  
+Author URI: http://www.studiopress.com/  
+Version: 2.1.2  
+Tags: black, orange, white, one-column, two-columns, three-columns, left-sidebar, right-sidebar, responsive-layout, custom-menu, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready  
+License: GPL-2.0+  
+License URI: http://www.gnu.org/licenses/gpl-2.0.html  
+*/
+.post-edit-link {
+  display: none; }
+
+@font-face {
+  font-family: 'misoregular';
+  src: url("../fonts/regular/miso-regular-webfont.eot");
+  src: url("../fonts/regular/miso-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/regular/miso-regular-webfont.woff2") format("woff2"), url("../fonts/regular/miso-regular-webfont.woff") format("woff"), url("../fonts/regular/miso-regular-webfont.ttf") format("truetype"), url("../fonts/regular/miso-regular-webfont.svg#misoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'misolight';
+  src: url("../fonts/light/miso-light-webfont.eot");
+  src: url("../fonts/light/miso-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/light/miso-light-webfont.woff2") format("woff2"), url("../fonts/light/miso-light-webfont.woff") format("woff"), url("../fonts/light/miso-light-webfont.ttf") format("truetype"), url("../fonts/light/miso-light-webfont.svg#misolight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'misolight';
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 3em;
+  margin: 20px 0; }
+
+nav, .footer-widgets a, .site-footer p {
+  font-family: 'misolight'; }
+
+p {
+  font-family: "proxima-nova",sans-serif;
+  font-size: .85em;
+  line-height: 1.8; }
+
+.phone_number a {
+  font-family: "proxima-nova",sans-serif; }
+
+.tagline {
+  font-family: "proxima-nova",sans-serif; }

@@ -1,0 +1,23 @@
+$body-bg: #0B2531;
+$white: #ffffff;
+$green: #275e37;
+$lime-green: #bfc03f;
+$lite-gray: #bdc4cd;
+$opacity: rgba(255, 255, 255, 0.2);
+
+
+
+
+
+.comment-respond, .entry-comments, .entry-pings {
+    background:none;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"], .button {
+    background: $green;
+    font-family: 'misoregular';
+}
+
+
+
+
