@@ -15,7 +15,7 @@
  */
 
 // ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
+/** The name of the database for WordPresss */
 define('DB_NAME', 'genesis');
 
 /** MySQL database username */
