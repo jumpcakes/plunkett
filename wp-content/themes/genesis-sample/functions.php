@@ -1,7 +1,5 @@
 <?php
 
-update_option('siteurl','http://localhost/genesis/');
-update_option('home','http://localhost/genesis/');
 
 //* Start the engine
 include_once( get_template_directory() . '/lib/init.php' );
