@@ -1,0 +1,46 @@
+.icon-bar {
+    display: block;
+    width: 44px;
+    height: 4px;
+    border-radius: 1px;
+    background: #fff;
+    margin-bottom: 7px;
+}
+
+.toggle-container {
+    float: right;
+    margin: 32px 30px 0 0;
+}
+
+.nav-primary .genesis-nav-menu a {
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+	.genesis-nav-menu .menu-item, #nav_menu-2 {
+	    width: 100%;
+	}
+
+	#menu-top-menu li {
+		padding: 11px 0px;
+    	width: 49%;
+	}
+
+	#menu-top-menu a {
+	    padding: 8px 18px;
+	    width: 100%;
+	    text-align: center;
+	}
+
+	.genesis-nav-menu a {
+	    padding: 14px 15px;
+	    border-bottom: 1px solid #333;
+	}
+
+	.widget-area.header-widget-area,#menu-main {
+		display: none;
+	}
+	
+}
+

@@ -1,0 +1,57 @@
+.mobile-logo {
+    background: url(images/mobile-logo.png);
+    min-height: 42px;
+    width: 184px;
+    float: left;
+    margin-top: 18px;
+    display: none;
+}
+
+.toggle-container, .mobile-number, .mobile-after-nav {
+	display: none;
+}
+
+.mobile-request-quote {
+	margin-top: 20px;
+}
+
+.mobile-number {
+    width: 100%;
+    text-align: center;
+    background-color: #20434E;
+    padding: 12px;
+    color: #BFBF3D;
+    font-size: 27px;
+    margin-top: 12px;
+}
+
+
+
+@media (max-width: 768px) {
+	.site-header .title-area {
+    	display: none;
+	}
+	
+	.mobile-number {
+		display: inline-block;
+	}
+	    
+	.mobile-logo, .toggle-container, .mobile-after-nav  {
+    	display: block;
+	}
+
+	.site-header .widget-area {
+    	width: 100%;
+	}
+
+	.widget_search {
+	    width: 100%;
+	    text-align: center;
+	}
+
+	#text-2, #title-area {
+		display: none;
+	}
+
+
+}

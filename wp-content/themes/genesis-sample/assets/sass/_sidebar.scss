@@ -6,14 +6,16 @@ $lite-gray: #bdc4cd;
 $opacity: rgba(255, 255, 255, 0.2);
 
 
-
-
 .sidebar .widget {
 	background:none;
 	margin: 60px 0;
     padding: 0;
 }
 
+.sidebar-primary {
+    max-height: 870px;
+    overflow-y: scroll;
+}
 
 .cta-quote-btn {
 	width:100%;
@@ -101,6 +103,12 @@ $opacity: rgba(255, 255, 255, 0.2);
 
 .featured-content .entry {
 	border: none;
+}
+
+@media (max-width: 768px) {
+	.sidebar-primary {
+	    max-height: none;
+	}
 }
 
 

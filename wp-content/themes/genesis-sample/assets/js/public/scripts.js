@@ -2279,5 +2279,7 @@
 
 }(window.jQuery);
 $( document ).ready(function($) {
-    console.log( "ready!" );
+    $('.toggle-container').click(function() {
+    	$('.widget-area.header-widget-area,#menu-main').slideToggle('slow');
+    });
 });

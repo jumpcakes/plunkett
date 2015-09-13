@@ -292,14 +292,17 @@ input[type="search"] {
 }
 
 @media (max-width: 768px) {
-  	
+
+  	article .soliloquy-container .soliloquy-wrapper {
+    	padding-bottom: 20px !important;
+	}
   	.mobile-cta {
 	display:block;
 	margin-bottom:30px;
 	}
 	.content {
 		width:100%;
-		padding: 60px 0 0 0;
+		padding: 20px 0 0 0;
 	    border-right: none;	
 	}
 	.sidebar-primary {
