@@ -7,6 +7,12 @@
     margin-bottom: 7px;
 }
 
+.breadcrumb img {
+    position: relative;
+    top: 6px;
+    padding: 0 10px;
+}
+
 .toggle-container {
     float: right;
     margin: 32px 30px 0 0;
@@ -14,6 +20,11 @@
 
 .nav-primary .genesis-nav-menu a {
     font-size: 20px;
+    padding: 26px 19px;
+}
+
+.nav-primary .genesis-nav-menu li:first-child a {
+    padding-left: 0;
 }
 
 

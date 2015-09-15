@@ -28,7 +28,12 @@ add_theme_support( 'custom-background' );
 //* Add support for 3-column footer widgets
 add_theme_support( 'genesis-footer-widgets', 3 );
 
-
+add_filter( 'genesis_breadcrumb_args', 'sp_breadcrumb_args' );
+function sp_breadcrumb_args( $args ) {
+	$args['sep'] = '<img src="'.get_stylesheet_directory_uri().'/assets/css/images/bug-breadcrumb.jpg">';
+	$args['labels']['prefix'] = '';
+return $args;
+}
 
 
 add_filter('stylesheet_uri','wpi_stylesheet_uri',10,2);

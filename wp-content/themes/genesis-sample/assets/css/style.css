@@ -1352,7 +1352,7 @@ a:hover {
 
 .content {
   width: 66%;
-  padding: 60px 7% 60px 0;
+  padding: 10px 7% 60px 0;
   border-right: solid 1px rgba(255, 255, 255, 0.2); }
   .content .entry {
     background: none;
@@ -1573,12 +1573,21 @@ input[type="search"] {
   background: #fff;
   margin-bottom: 7px; }
 
+.breadcrumb img {
+  position: relative;
+  top: 6px;
+  padding: 0 10px; }
+
 .toggle-container {
   float: right;
   margin: 32px 30px 0 0; }
 
 .nav-primary .genesis-nav-menu a {
-  font-size: 20px; }
+  font-size: 20px;
+  padding: 26px 19px; }
+
+.nav-primary .genesis-nav-menu li:first-child a {
+  padding-left: 0; }
 
 @media (max-width: 768px) {
   .genesis-nav-menu .menu-item, #nav_menu-2 {
