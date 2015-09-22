@@ -142,14 +142,12 @@ add_action('genesis_before_content','mobile_after_nav');
 function mobile_after_nav() {
 	?>
 	<div class="mobile-after-nav">
-		<h1 style="text-align:center;">Bed Bugs</h1>
 		<div class="mobile-request-quote">
 			<?php echo do_shortcode('[cta]'); ?>
 		</div>
 	</div>
 	<?php
 }
-
 
 
 
