@@ -1,0 +1,34 @@
+.pest-top {
+  background: #415056;
+  padding: 15px;
+  overflow: auto;
+  margin-top: 20px; }
+
+.pest-bottom {
+  border: 1px solid #415056;
+  border-top: 0px;
+  display: none;
+  padding: 15px;
+  margin-bottom: 20px;
+  overflow: hidden; }
+
+.pest-top h1 {
+  margin: 0px;
+  float: left;
+  position: relative;
+  margin-top: 1%; }
+
+.pest-top i {
+  font-size: 30px;
+  float: right;
+  margin-top: 4%;
+  color: #fff; }
+
+.pest-img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 5%; }
+
+.pest-list {
+  margin-bottom: 10px; }
